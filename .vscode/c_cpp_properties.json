@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "ARCHPROPNAME=amd64",
+        "JDK_MAJOR_VERSION=1",
+        "JDK_MINOR_VERSION=8",
+        "JDK_MICRO_VERSION=0",
+        "JDK_BUILD_NUMBER=b00",
+        "_GNU_SOURCE",
+        "_REENTRANT",
+        "_LARGEFILE64_SOURCE",
+        "_LP64=1",
+        "_LITTLE_ENDIAN",
+        "LINUX",
+        "ARCH=amd64",
+        "amd64",
+        "DEBUG",
+        "RELEASE=1.8.0-internal-debug",
+        "HOTSPOT_LIB_ARCH=\"amd64\"",
+        "HOTSPOT_VM_DISTRO=\"OpenJDK\"",
+        "TARGET_OS_FAMILY_linux",
+        "TARGET_ARCH_x86",
+        "TARGET_ARCH_MODEL_x86_64",
+        "TARGET_OS_ARCH_linux_x86",
+        "TARGET_OS_ARCH_MODEL_linux_x86_64",
+        "TARGET_COMPILER_gcc",
+        "INCLUDE_JFR=1",
+        "COMPILER2",
+        "COMPILER1",
+        "_REENTRANT",
+        "_NMT_NOINLINE_",
+        "VM_LITTLE_ENDIAN",
+        "_LP64=1"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compileCommands": "${workspaceFolder}/compile_commands.json"
+    }
+  ],
+  "version": 4
+}
